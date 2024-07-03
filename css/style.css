@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: rgb(30, 32, 43);
+}
+.w-35{
+    width: 35%;
+}
+.nav-link, .nav-link.active.me-4{
+    color: white;
+    padding: 5px 30px;
+    border-radius: 40px;
+    border: 2px solid transparent;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+.nav-link:hover, .nav-link.active:hover{
+    color: #009ad8;
+    border-color: #009ad8;
+}
+.navbar-toggler{
+    background-color: white;
+}
+
+.site-bg{
+    background-image: url(../images/banner.png);
+    background-size: cover;
+    height: 350px;
+}
+
+.location-input{
+    padding: 20px 100px 20px 20px;
+    width: 100%;
+    border: none;
+    color: white;
+    background-color: #1e202b;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.find-button{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    bottom: 5px;
+}
+.today-header{
+    background-color: rgb(45, 48, 61);
+
+}
+.weather-details{
+    background-color: rgb(51, 54, 69)
+}
+.tomorrow-header{
+    background-color: rgb(34, 37, 48);
+}
+.tomorrow-details{
+    background-color:rgb(37, 40, 54)
+}
+.city{
+    color: #BFC1C8;
+    font-size: 20px;
+}
+.degree-num{
+    font-size: 5.625rem;
+    font-weight: bold;
+}
+.weather-condition{
+    margin: 20px 0px;
+    color: #009ad8;
+}
+.tomorrow-degree{
+    font-size: 30px;
+    font-weight: 700;
+}
+small{
+    font-size: 16px;
+}
+.weather{
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+footer{
+    background-color: #262936;
+}
+
+
+.subscripe-input{
+    padding: 20px 100px 20px 20px;
+    width: 100%;
+    border: none;
+    color: white;
+    background-color: #1e202b;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.icons a{
+    width: 30px;
+    height: 30px;
+    padding: 15px;
+    margin-right: 5px;
+    background-color: #1e202b;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    text-align: center;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+}
+.icons a:hover{
+    color: white;
+    background-color: #009ad8;
+}
+.subscribe-button{
+    right: 5px;
+    top: 5px;
+    bottom: 5px;
+}
+.copyrights{
+    color: #BFC1C8;
+}
